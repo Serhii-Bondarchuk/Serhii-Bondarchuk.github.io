@@ -1,0 +1,67 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+
+.wrapper{
+padding-right: 30px;
+padding-left: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+background:  blue;
+width: 100%;
+height: auto;
+}
+.wrapper_1{
+  /* visibility: hidden; */
+  background: lightblue;
+  width: 70%;
+  padding: 20px;
+
+}
+.container{
+/* display: block; */
+/* display: flex; */
+flex: wrap;
+/* justify-content: center; */
+/* align-items: center; */
+              padding: 10px;
+              height: 500px;
+              background: green;
+}
+.block1{
+  /* float: right; */
+  /* clear: right; */
+  background: red;
+  height: 200px;
+  width: 20%;
+  margin: 10px;
+  /* background: inherit; */
+}
+.block2{
+  /* position: absolute; */
+  /* float: right; */
+  /* clear:right; */
+
+  margin: 10px;
+  width: 10%;
+background: #333333;
+}
+.block3{
+  /* position: absolute; */
+  margin:10px;
+  width: 20%;
+background: gray;
+
+/* float: right; */
+/* clear: right; */
+
+}
+
+.box_footer{
+  margin-top: 20px;
+height: 200px;
+background: gold;
+padding: 20px;
+}
