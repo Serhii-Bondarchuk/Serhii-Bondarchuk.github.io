@@ -447,7 +447,7 @@ padding-right: 90px;
 }
 
 
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:320px) {
 body{
   width: 100%;
   height: 100%;
@@ -475,10 +475,23 @@ margin: 0 auto;
   /* margin-left: 20px; */
 }
 .left_p{
+  width: auto;
 margin: 0 auto;
-margin-left: 20px;
-margin-bottom: 40px;
+margin-bottom: 45px;
+text-align: center;
 }
+
+button.but1{
+width: auto;
+font-size: 10px;
+padding: 15px;
+}
+.left_p p{
+margin: 0 auto;
+margin-bottom: 40px;
+font-size: 20px;
+}
+
 .div_butt{
   text-align: center;
   margin: 0 auto;
@@ -488,49 +501,74 @@ margin: 0 auto;
 margin-bottom: 90px;
 }
 .num1,.num2,.num3{
-  width: 400px;
+  width: auto;
   margin: 0 auto;
   left: auto;
+  height: 100px;
 }
 .num_left{
-  font-size: 40px;
+  font-size: 25px;
 }
 .num_left span{
   font-size: 16px;
 }
 .num_right{
-font-size: 15px;
+font-size: 11px;
 }
 .num_left3{
-  font-size: 40px;
+  font-size: 25px;
 }
 .num_right3{
-  font-size: 15px;
+  font-size: 12px;
+  margin-left: 18px;
 }
 .gradient{
   margin-right: 60px;
 
 }
 .svg1{
-margin: 250px 0 0 30px;
+margin: 250px 0 0 -9px;
 }
+.svg1 svg{
+width: 280px;
+}
+.svg2 svg{
+width: 320px;
+}
+.svg3 svg{
+width: 320px;
+}
+
+
 .svg2{
-  margin: 120px 0 0 9px;
+  margin: 120px 0 0 -49px;
 }
 .svg3{
-  margin: 180px 0 0 89px;
+  margin: 180px 0 0 -49px;
 }
 .text_row{
 flex-direction: column;
 }
 
-.text_left{
+.text_left,.text_right{
 margin: 0 auto;
 margin-bottom: 50px;
+width: auto;
+padding: 5px;
+}
+.text1 {
+  text-align: justify;
+}
+.text2{
+  text-align: justify;
+}
+.text2 h4{
+  text-align: left;
 }
 
 .text_right{
   margin: 0 auto;
+  width: auto;
 }
 
 .div_butt2{
@@ -540,25 +578,37 @@ margin-top: 100px;
 flex-direction: column;
 margin: 0 auto;
 padding: 0;
+margin-left: -70px;
 }
 .footer{
 
 height: auto;
 }
-
+.bot1 text{
+padding: 0;
+margin: 0 auto;
+}
 .col{
 margin-bottom: 60px;
 }
+.footer_bottom{
+
+}
 
 .footer_bottom{
+  text-align: center;
 margin: 0 auto;
 height: auto;
-
+padding-right: 0;
+padding-left: 0px;
 padding-bottom:  30px;
 }
 .footer_bottom_row{
+  text-align: center;
 flex-direction: column;
+padding-right: 0;
 margin: 0 auto;
+width: auto;
 }
 
 
@@ -571,7 +621,9 @@ margin: 0 auto;
 height: auto;
 padding: 0;
 }
-
+.bot2{
+  padding: 0;
+}
 
 .right_h{
 margin-top: 200px;
