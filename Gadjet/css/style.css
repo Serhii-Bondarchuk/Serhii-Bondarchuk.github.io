@@ -223,7 +223,7 @@ position: relative;
 }
 .box_foto3 img{
 position: absolute;
-margin-left:  9%;
+margin-left:  18%;
 top:-88px;
 }
 .box1_l2{
@@ -249,9 +249,10 @@ z-index: 1;
 position: relative;
 }
 .table_bottom img{
+/* z-index: 1; */
 position: absolute;
-margin-top: 19%;
-margin-left: -5% ;
+margin-top: 55%;
+margin-left: -80% ;
 }
 
 .level2{
