@@ -648,7 +648,7 @@ top:50px;
   right: -1120px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:480px) {
     .box_head{
 
     margin:0 auto;
