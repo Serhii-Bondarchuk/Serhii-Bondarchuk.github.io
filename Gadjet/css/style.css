@@ -119,7 +119,7 @@ position: relative;
   }
   .box_foto1{
   /* background: yellow; */
-  width: 35%;
+  width: 30%;
 }
   .box_foto1 img{
     position: absolute;
@@ -129,10 +129,10 @@ position: relative;
     top:-13px;
   }
   .box_foto2{
-    width: 30%;
+    width: auto;
   }
   .box_foto3{
-    width: 35%;
+    width: 30%;
   }
 .row_foto2{
 
@@ -722,17 +722,17 @@ margin-bottom: 50px;
 
 }
 .table1,.table3{
-padding-left: 31px;
+padding-left: 15%;
 }
 .table2{
-padding-left: 27px;
+padding-left: 12.5%;
 }
 .table4{
-  padding-left: 18px;
+  padding-left: 5%;
 }
 
 .table5{
-  padding-left: 25px;
+  padding-left: 12%;
 }
 
 .table_55 span{
@@ -740,9 +740,9 @@ font-size: 12px;
 }
 
 .table_bottom img{
-  width: 300%;
+  width: 270%;
   height: auto;
-  left: -80px;
+  left: -80%;
 }
 .box1_l2 h1{
 font-size: 15px;
