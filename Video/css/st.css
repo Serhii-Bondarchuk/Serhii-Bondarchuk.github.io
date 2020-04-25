@@ -1,0 +1,130 @@
+body{
+margin: 0;
+padding: 0;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+overflow-x: hidden;
+overflow-y: hidden;
+
+height: auto;
+/* background: #f0f0f0; */
+}
+.wrapper{
+/* display: flex; */
+text-align:center;
+width: 100%;
+
+}
+
+.video-background{
+position: absolute;
+top:0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1;
+/* visibility: collapse; */
+}
+
+h1{
+  /* margin-top: 300px; */
+  color: blue;
+  font-family: 'Work Sans', sans-serif;
+  z-index: 2;
+  /* margin-left: 50%; */
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 45px;
+
+}
+.h1{
+  position:absolute;
+  text-align: center;
+  top:-1%;
+  margin: 0 auto;
+  margin-left: 44%;
+}
+ h2, h6{
+  color: blue;
+  font-family: 'Work Sans', sans-serif;
+  z-index: 2;
+  /* margin-left: 50%; */
+  margin: 0 auto;
+  text-align: center;
+  /* margin-top: 15%; */
+  font-size: 25px;
+}
+
+
+
+
+
+.search-box{
+  margin: 0 auto;
+display: flex;
+position: absolute;
+
+top: 40%;
+z-index: 1;
+background-color: #8F3585;
+height: 40px;
+border-radius: 40px;
+padding: 10px;
+/* margin-left: 50%; */
+justify-content: center;
+align-items: center;
+opacity: 0.5;
+width: auto;
+/* margin: 1% 30% 0 30%; */
+text-align: center;
+
+}
+.ww {
+  margin:1% 30% 0 30%;
+  display: flex;
+  position: relative;
+  background:  red;
+  width: auto;
+  height: auto;
+  z-index: 20;
+  text-align: center;
+  justify-content: center;
+}
+.search-btn {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f0f0f0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-decoration: none;
+  background-color: #8F3585;
+}
+.search-txt{
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+  padding: 0;
+  font-size: 20px;
+  transition: 1s;
+  line-height: 40px;
+  width: 0;
+}
+
+
+
+.search-box:hover > .search-txt{
+  width: 200px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+  background-color: #8F3585;
+}
