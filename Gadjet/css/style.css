@@ -18,6 +18,16 @@ header{
   display: flex;
 
 }
+@font-face {
+    font-family: 'Calligraph';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Calligraph'), local('Calligraph-Regular'),
+        url(http://allfont.ru/cache/fonts/calligraph_fd4010f79ac0ac290f27647883b1ab50.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/calligraph_fd4010f79ac0ac290f27647883b1ab50.ttf) format('truetype');
+}
+
+
 .box_head{
   text-align: center;
   width: 100%;
